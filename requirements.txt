@@ -1,0 +1,8 @@
+jupyter==1.0.0
+rdkit==2022.03.4
+scikit-learn==1.1.1
+pandas==1.4.3
+seaborn==0.11.2
+optuna==2.10.1
+boruta_py==0.3
+shap==0.41.0
