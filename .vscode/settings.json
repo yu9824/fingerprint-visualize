@@ -1,0 +1,14 @@
+{
+    "ruff.configuration": "${workspaceFolder}/ruff.toml",
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*\\.ipynb$",
+                "cmd": "/home/yu9824/opt/miniforge3/envs/py313/bin/python3 -m jupytext --sync ${file}"
+            }
+        ]
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": []
+}
